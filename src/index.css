@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    & > * {
+        @apply p-2 px-4 hover:bg-[#bcb8f7] shadow-xl rounded-lg; 
+        &.active {
+            @apply bg-[#5832df] text-white;
+        }
+    }
+}
+
