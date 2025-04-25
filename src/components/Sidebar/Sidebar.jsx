@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "./Sidebar.scss"
 
 const Sidebar = () => {
     return (
@@ -7,7 +8,7 @@ const Sidebar = () => {
                 <NavLink to="/" className="text-2xl w-full">Home</NavLink>
             </h2>
             <nav className="flex flex-col w-full link">
-                <NavLink to="/about" >About</NavLink>
+                <NavLink to="/demo01" >About</NavLink>
             </nav>
         </aside>
     )

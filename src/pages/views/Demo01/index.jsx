@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About() {
+function Demo01() {
   return (
     <div className="text-center">
       <h1 className="text-3xl font-bold underline">About Page</h1>
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default Demo01;
