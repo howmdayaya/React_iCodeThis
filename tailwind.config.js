@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      // 自定义小于等于 680px 的断点
+      'max-680': { 'max': '680px' }
+    },
   },
   plugins: [],
 }

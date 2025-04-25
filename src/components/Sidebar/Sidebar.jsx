@@ -7,8 +7,9 @@ const Sidebar = () => {
             <h2 className="w-full flex flex-col  items-center text-center link">
                 <NavLink to="/" className="text-2xl w-full">Home</NavLink>
             </h2>
-            <nav className="flex flex-col w-full link">
-                <NavLink to="/demo01" >About</NavLink>
+            <nav className="flex flex-col w-full link gap-2">
+                <NavLink to="/demo01" >404 Error Page</NavLink>
+                <NavLink to="/demo02" >Subscribe</NavLink>
             </nav>
         </aside>
     )
