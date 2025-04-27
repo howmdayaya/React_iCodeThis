@@ -10,6 +10,7 @@ const Sidebar = () => {
             <nav className="flex flex-col w-full link gap-2">
                 <NavLink to="/demo01" >404 Error Page</NavLink>
                 <NavLink to="/demo02" >Subscribe</NavLink>
+                <NavLink to="/demo03" >Mobile Menu</NavLink>
             </nav>
         </aside>
     )
